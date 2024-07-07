@@ -215,7 +215,7 @@ main {
 
 .resume-container {
     display: flex;
-    gap: 24;
+    gap: 100px;
 }
 
 .experience-description, .experience-sub-title {
