@@ -41,6 +41,10 @@ nav {
     color: #474747;
 }
 
+.dark-1 {
+    color: #757575;
+}
+
 .btn-primary {
     background-color: #fd6e0a;
     font-weight: 700;
@@ -120,6 +124,7 @@ nav ul {
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 50px;
 }
 
 .section-title {
@@ -160,6 +165,48 @@ main {
 }
 
 .inner-border {
-    border: 2px solid #000000;
     background-color: #fff;
+}
+
+.skill-showcase {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 24;
+}
+
+.card {
+    max-width: 267px;
+    padding: 25px 28px;
+    margin: 0 20px;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+
+.card-image {
+    padding-bottom: 15px;
+}
+
+.card-title {
+    font-size: 19px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.bottom-space {
+    margin-bottom: 50px;
+    padding: 0 100px;
+    line-height: 2;
 }
